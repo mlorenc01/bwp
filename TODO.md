@@ -2,7 +2,7 @@ TODOs
 =====
 
 - [] continue cli book: https://rust-cli.github.io/book/tutorial/errors.html#providing-context
-- [] remove the `OHR.` prefix from filenames
+- [x] remove the `OHR.` prefix from filenames
 - [] do not download wallpaper if already present in .bwp
 - [] create list of valid bing regions and validate it
 - [] allow loading of config from .bwp dir

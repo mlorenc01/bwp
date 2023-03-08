@@ -60,6 +60,7 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
     for (k, v) in url_parsed.query_pairs() {
         if let Cow::Borrowed("id") = k {
             filename = v.into();
+            filename = filename.replace("OHR.", "");
         }
     }
     let mut img_bytes = Cursor::new(response.bytes()?);
